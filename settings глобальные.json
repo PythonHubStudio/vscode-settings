@@ -1,0 +1,19 @@
+{
+    "extensions.autoCheckUpdates": false,
+    "update.enableWindowsBackgroundUpdates": false,
+    "extensions.autoUpdate": false,
+    "update.showReleaseNotes": false,
+    "update.mode": "none",
+
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Monokai",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "window.commandCenter": false,
+    "workbench.startupEditor": "none",
+    "files.autoSave": "afterDelay",
+    "explorer.autoReveal": false,
+    "explorer.compactFolders": false,
+    "breadcrumbs.enabled": false,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}
