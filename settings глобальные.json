@@ -4,9 +4,10 @@
     "extensions.autoUpdate": false,
     "update.showReleaseNotes": false,
     "update.mode": "none",
-    
+
     "debug.inlineValues": "on",
-    
+    "debug.autoExpandLazyVariables": true,
+
     "editor.minimap.enabled": false,
     "workbench.colorTheme": "Monokai",
     "terminal.integrated.cursorStyle": "line",
