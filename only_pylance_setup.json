@@ -1,0 +1,28 @@
+{
+    //Setting up Pylance and code analysis.
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.importFormat": "absolute",
+    // Enable display of variable typing.
+    // "python.analysis.inlayHints.variableTypes": true,
+    // "python.analysis.inlayHints.functionReturnTypes": true,
+    // "python.analysis.enablePytestSupport": true,
+    "python.analysis.indexing": true,
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "aiogram", //here is the library you need
+            "depth": 3,
+            "includeAllSymbols": true
+        },
+        //like this:
+        // {
+        //     "name": "django",
+        //     "depth": 3,
+        //     "includeAllSymbols": true
+        // }
+    ],
+}
