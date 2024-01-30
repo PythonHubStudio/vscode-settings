@@ -1,0 +1,119 @@
+{
+    // updates disabled
+    "extensions.autoCheckUpdates": false,
+    "update.enableWindowsBackgroundUpdates": false,
+    "extensions.autoUpdate": false,
+    "update.showReleaseNotes": false,
+    "update.mode": "none",
+
+    //terminal
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.enableFileLinks": "off",
+    "terminal.integrated.scrollback": 50,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+
+    //editor
+    "editor.minimap.enabled": false,
+    "editor.find.seedSearchStringFromSelection": "selection",
+    "editor.accessibilitySupport": "off",
+    "editor.autoClosingDelete": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.hover.delay": 100,
+    "editor.roundedSelection": false,
+    "editor.scrollbar.horizontal": "visible",
+    "editor.scrollbar.vertical": "visible",
+    "editor.scrollbar.scrollByPage": true,
+    "editor.selectionHighlight": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.includeStrings": false,
+
+    // comment like "this is stop sign"
+    "debug.autoExpandLazyVariables": true,
+    "debug.inlineValues": "on",
+    "debug.terminal.clearBeforeReusing": true,
+
+    // disable or change junk features
+    "window.commandCenter": false,
+    "workbench.startupEditor": "none",
+    "explorer.autoReveal": false,
+    "explorer.compactFolders": false,
+    "files.autoSave": "afterDelay",
+    "breadcrumbs.enabled": false,
+    "workbench.cloudChanges.autoResume": "off",
+    "workbench.cloudChanges.continueOn": "off",
+    "workbench.enableExperiments": false,
+    "workbench.quickOpen.closeOnFocusLost": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "window.density.editorTabHeight": "compact",
+    "accessibility.verbosity.comments": false,
+    "search.defaultViewMode": "tree",
+    "telemetry.telemetryLevel": "off",
+    "extensions.closeExtensionDetailsOnViewChange": true,
+    "settingsSync.keybindingsPerPlatform": false,
+
+    // themes
+    "workbench.colorTheme": "Monokai",
+    "window.zoomLevel": 1,
+    
+    // git
+    "git.autoRepositoryDetection": "subFolders",
+    
+    //Setting up Pylance and code analysis.
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.importFormat": "absolute",
+    // Enable display of variable typing.
+    // "python.analysis.inlayHints.variableTypes": true,
+    // "python.analysis.inlayHints.functionReturnTypes": true,
+    // "python.analysis.enablePytestSupport": true,
+    "python.analysis.indexing": true,
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "aiogram", //here is the library you need
+            "depth": 3,
+            "includeAllSymbols": true
+        },
+        //like this:
+        // {
+        //     "name": "django",
+        //     "depth": 3,
+        //     "includeAllSymbols": true
+        // }
+    ],
+    
+
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+
+
+    // for django:
+
+    // "emmet.includeLanguages": {
+    //     "django-html": "html"
+    // },
+
+    // "files.associations": {
+    //     "**/*.html": "html",
+    //     "**/templates/*/*.html": "django-html",
+    //     "**/templates/*/*/*.html": "django-html",
+    //     "**/templates/*": "django-html",
+    //     "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    // },
+
+    // "[django-html]": {
+    //     "breadcrumbs.showClasses": true,
+    //     "editor.quickSuggestions": {
+    //         "other": true,
+    //         "comments": true,
+    //         "strings": true
+    //     }
+    // }
+}
